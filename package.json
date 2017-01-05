@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "backend": "nodemon --exec babel-node --stage 0 -- server/server.js"
+    "backend": "nodemon --exec babel-node --stage 0 -- server/server.js",
+    "frontend": "node webpack/webpack.server.js"
   },
   "author": "",
   "license": "ISC",
